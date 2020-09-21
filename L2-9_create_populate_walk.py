@@ -4,10 +4,9 @@
 anotherlist = []
 for item in range(65, 80):
     anotherlist.append(chr(item))
-for item in range(100,150):
+for item in range(100, 150):
     anotherlist.append(item)
 print(anotherlist)
 print('*'*20)
 for item in anotherlist:
     print(item)
-
