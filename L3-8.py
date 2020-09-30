@@ -21,9 +21,10 @@ for i in range(200, 226, 1):
 
 print('after insert theList: ', theList)
 
-for each in theList:
-    if each == 201:
-        theList.pop(theList.index(each))
+for each in range(len(theList)):
+    if theList[each] == 201:
+        theList.pop(each)
+        break
 
 # 201 is now missing from theList
 
